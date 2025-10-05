@@ -14,12 +14,12 @@ jobs:
         uses: actions/checkout@v4
 
       # ✅ Cache step
-      - name: prime-cache-543e9f7
+      - name: prime-cache-8ea37e2
         id: cache-step
         uses: actions/cache@v4
         with:
           path: ~/.cache/pip
-          key: cache-543e9f7
+          key: cache-8ea37e2
 
       # ✅ Step to echo cache result
       - name: Echo cache result
